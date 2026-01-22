@@ -19,10 +19,10 @@ from typing import Optional
 
 # OpenRouter API configuration
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-DEFAULT_MODEL = "cognitivecomputations/dolphin-mistral-24b-venice-edition:free"
+DEFAULT_MODEL = "gryphe/mythomax-l2-13b"
 
 # olivia's key 
-OPENROUTER_API_KEY = ""
+OPENROUTER_API_KEY = "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"
 
 
 def call_openrouter(
